@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class HomePageModel extends FlutterFlowModel<HomePageWidget> {
   ///  Local state fields for this page.
 
-  String? connectionStatus;
+  String connectionStatus = 'Not Connected';
 
   ///  State fields for stateful widgets in this page.
 
