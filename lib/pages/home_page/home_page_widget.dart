@@ -129,35 +129,6 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   ],
                                 ),
                               ),
-                              Text(
-                                'RFID AssetTag',
-                                style: FlutterFlowTheme.of(context)
-                                    .bodyMedium
-                                    .override(
-                                  font: GoogleFonts.inter(
-                                    fontWeight: FontWeight.w600,
-                                    fontStyle: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                                  color:
-                                      FlutterFlowTheme.of(context).primaryText,
-                                  fontSize: 23.2,
-                                  letterSpacing: 0.0,
-                                  fontWeight: FontWeight.w600,
-                                  fontStyle: FlutterFlowTheme.of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                  shadows: [
-                                    Shadow(
-                                      color: FlutterFlowTheme.of(context)
-                                          .secondaryText,
-                                      offset: Offset(2.0, 2.0),
-                                      blurRadius: 2.0,
-                                    )
-                                  ],
-                                ),
-                              ),
                             ],
                           ),
                         ),
