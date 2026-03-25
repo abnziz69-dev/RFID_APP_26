@@ -20,7 +20,7 @@ class HomePageModel extends FlutterFlowModel<HomePageWidget> {
 
   ///  State fields for stateful widgets in this page.
 
-  // Stores action output result for [Custom Action - rfidConnection] action in Button widget.
+  // Stores action output result for [Custom Action - rfidConnection] action in HomePage widget.
   bool? rfidConnectionStatus;
 
   @override
